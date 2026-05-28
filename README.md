@@ -1,4 +1,3 @@
-````markdown
 # Portal da Transparência - Automated E2E Testing
 
 Este repositório contém a suíte de testes automatizados de ponta a ponta (E2E) para o Portal da Transparência. O objetivo do projeto é garantir a integridade, disponibilidade e confiabilidade das principais funcionalidades públicas do portal.
@@ -88,11 +87,7 @@ Ou:
 npx cypress run
 ```
 
----
 
 ## 📄 Licença
 
 Este projeto possui fins acadêmicos e educacionais.
-
-```
-```
