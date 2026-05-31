@@ -12,7 +12,7 @@ O projeto adota a prática de **Behavior-Driven Development (BDD)** com especifi
 
 ## 📋 Planejamento de Testes
 Para manter este documento conciso, todo o mapeamento estratégico e a listagem de cenários de teste (CT001 a CT012) foram movidos para um arquivo dedicado:
-👉 **[Acesse o Planejamento de Testes Completo aqui (PLANEJAMENTO.md)](./PLANEJAMENTO.md)**
+👉 **[Acesse o Planejamento de Testes Completo aqui](./PLANEJAMENTO.md)**
 
 ## 🛠️ Tecnologias e Ferramentas
 * **Node.js** — Gerenciamento de dependências
