@@ -7,8 +7,14 @@ Cenario: navegar para rede de transparencia
   Quando clico em rede de transparencia
   Entao a pagina de rede de transparencia deve ser exibida
 
-Cenario: acessar beneficios sociais na rede de transparencia
+Esquema do Cenario: acessar diferentes temas na rede de transparencia
   Dado acesso o portal da transparencia
   Quando clico em rede de transparencia
-  E clico em beneficios sociais
-  Entao a pagina de beneficios sociais deve ser exibida
+  E clico no tema "<tema>"
+  Entao a pagina do tema deve ser exibida
+
+  Exemplos:
+    | tema                 |
+    | Benefícios Sociais   |
+    | Ciência e Tecnologia |
+    | Dados básicos        |
