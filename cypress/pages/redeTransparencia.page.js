@@ -7,23 +7,21 @@ class RedeTransparenciaPage {
     ).click({ force: true });
   }
 
-  clickBeneficiosSociais() {
-    cy.get(
-      "#\\36 01106 > .rede-transparencia-card > .rede-transparencia-tema__card__link",
-      { timeout: 15000 }
-    )
+  validateRedeTransparenciaPage() {
+    cy.get("body", { timeout: 5000 }).should("exist");
+  }
+
+  clickTemaRede(tema) {
+    cy.contains(tema, { timeout: 15000 })
       .scrollIntoView()
       .should("be.visible")
       .click({ force: true });
   }
 
-  validateRedeTransparenciaPage() {
+  validateTemaPage() {
     cy.get("body", { timeout: 5000 }).should("exist");
   }
 
-  validateBeneficiosSociaisPage() {
-    cy.get("body", { timeout: 5000 }).should("exist");
-  }
 }
 
 module.exports = new RedeTransparenciaPage();
