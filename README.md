@@ -82,7 +82,7 @@ npx cypress run
 
 ## 📄 Apresentação do projeto
 
-Este projeto possui vídeo de apresentação e pode ser localizado [aqui](./ApresentacaoProjeto.mp4)*
+Este projeto possui vídeo de apresentação e pode ser localizado [aqui](./ApresentacaoProjeto.mp4) ou acesse a apresentação pelo [Youtube](https://www.youtube.com/watch?v=mIttwJxAPHw).
 
 
 ## 📄 Licença
