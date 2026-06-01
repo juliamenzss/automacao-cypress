@@ -80,6 +80,10 @@ Ou:
 npx cypress run
 ```
 
+## 📄 Apresentação do projeto
+
+Este projeto possui vídeo de apresentação e pode ser localizado [aqui](./ApresentacaoProjeto.mp4)*
+
 
 ## 📄 Licença
 
